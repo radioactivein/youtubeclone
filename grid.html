@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid pratice</title>
+    <style> 
+    .main{
+        display: grid;
+        margin-top: 30px ;
+        grid-template-columns:1fr 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 15px;
+        height: 200px; 
+    }
+    .sub1{
+        background-color: aqua;
+    }
+    .sub2{
+        background-color: antiquewhite ;
+    }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="main">
+        <div class="sub1">div 1</div>
+        <div class="sub2">div 2</div>
+        <div class="sub1">div 1</div>
+    </div>
+    <div class="main">
+        <div class="sub1">div 1</div>
+        <div class="sub2">div 2</div>
+        <div class="sub1">div 1</div>
+    </div>
+</body>
+</html>
